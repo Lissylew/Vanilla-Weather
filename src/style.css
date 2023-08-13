@@ -31,15 +31,16 @@ body {
   
   .weather-app-wrapper {
     max-width: 600px;
-    margin: 30px auto;
+    margin: 0 ;
   }
   
   .weather-app {
     padding: 20px;
     border: 1px solid #dadde1;
     border-radius: 5px;
-    margin: 0;
-  }
+    margin: 0 auto;
+    box-sizing: border-box;
+}
   
   .overview {
     margin-bottom: 20px;
@@ -75,6 +76,7 @@ body {
   
   .weather-forecast {
     margin-top: 20px;
+    margin-right: 20px;
     text-align: center;
     color: #000;
   }
