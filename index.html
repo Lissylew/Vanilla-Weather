@@ -8,7 +8,7 @@
      "sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
     crossorigin="anonymous">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-   <link rel="stylesheet" href="src/style.css">
+        <link rel="stylesheet" href="src/style.css">
     <title>Arlene Vanilla weather</title>
 </head>
 <body>
@@ -34,12 +34,12 @@
             </div>
 </form>
 <div class="overview" >
-           <h1>Trinidad</h1>
+           <h1 id="city"></h1>
         <ul>
-            <li>
+            <li>Last updated
                 <span id="date">Friday 5:00 pm</span>
                 </li>
-            <li id="description">clear</li>
+            <li id="description"></li>
             </ul>
             </div>         
         <div class="row">
@@ -50,7 +50,7 @@
     alt="clear" id="icon"
     />
     <div>
-        <strong id="temperature">29</strong><span class="units">°C | <a href="#">°F</a></span>
+        <strong id="temperature"></strong><span class="units">°C | <a href="#">°F</a></span>
     </div>
     </div>
     </div>
@@ -63,16 +63,16 @@
             </div>
           </div>
           <div class="weather-forecast" id="forecast"></div>
-    </div>
-        </div>
+    </div>  
+     </div>    
     <footer>
         <a href="https://github.com/Lissylew/Vanilla-Weather" target="_blank">
             Open-source code 
         </a>
         by Arlene Lewis-Lall
     </footer>
-    </div>
-    </div>
-    <script src="src/script.js"></script>
+       </div>
+        </div>
+            <script src="src/script.js"></script>
 </body>
 </html>
