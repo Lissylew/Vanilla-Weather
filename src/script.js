@@ -129,11 +129,10 @@ function dispalyFahrenheitTemp(event) {
   tempElement.innerHTML = fahrenheitTemp;
 }
 
-function dispalyCelsiusTemp(event) {
+function displayCelsiusTemp(event) {
   event.preventDefault();
   let tempElement = document.querySelector("#temp");
 
-  //add active class form celsius link
   celsiusiLink.classList.add("active");
   fahrenheitLink.classList.remove("active");
 
