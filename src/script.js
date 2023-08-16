@@ -24,9 +24,8 @@ function formatDate(timestamp) {
 
 function forecastDays(timestamp) {
   let forecastDate = new Date(timestamp * 1000);
-  let forecastDay = forecastDate.getUTCDay(); // Get the UTC day index
+  let forecastDay = forecastDate.getUTCDay(); 
 
-  // Adjust the index to start from Monday (1) instead of Sunday (0)
   let adjustedDay = (forecastDay + 6) % 7;
 
   let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
@@ -34,7 +33,7 @@ function forecastDays(timestamp) {
   return days[adjustedDay];
 }
 
-//
+
 function displayForecast(response) {
   let forecast = response.data.daily;
 
@@ -74,7 +73,7 @@ function displayForecast(response) {
 
 //
 function getForecast(coordinates) {
-  let apiKey = "5aac6d0188c6f17d6d2bbe6591b6fef0";
+  let apiKey = "97f8e93f00107773f88eafd933ce86b7";
   let apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
   axios.get(apiURL).then(displayForecast);
 }
@@ -106,7 +105,7 @@ function crTemp(response) {
 }
 
 function searchForCity(city) {
-  let apiKey = "";
+  let apiKey = "97f8e93f00107773f88eafd933ce86b7";
   let units = "metric";
   let apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
   axios.get(apiURL).then(crTemp);
@@ -153,4 +152,4 @@ fahrenheitLink.addEventListener("click", dispalyFahrenheitTemp);
 let celsiusiLink = document.querySelector("#celsius-link");
 celsiusiLink.addEventListener("click", dispalyCelsiusTemp);
 
-searchForCity("Trinidad");
+searchForCity("Tunapuna");
