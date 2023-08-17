@@ -1,8 +1,7 @@
 
 .body {
     font-family: "DM Sans", sans-serif;
-    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/530/original/fortgoergescene.jpg?1691436916);
-  background-repeat: no-repeat;
+   
   }
 
   
@@ -10,10 +9,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
     border: solid 1px rgb(214, 250, 210);
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/530/original/fortgoergescene.jpg?1691436916);
     border-radius: 15px;
     padding: 20px;
-    background-color: rgb(252, 253, 253);
-  }
+      }
   
   .edge-in {
     margin-top: 20px;
