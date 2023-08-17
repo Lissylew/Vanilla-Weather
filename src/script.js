@@ -70,9 +70,8 @@ function displayForecast(response) {
   currentForecast.innerHTML = forecastHTML;
 }
 
-//
 function getForecast(coordinates) {
-  let apiKey = "";
+  let apiKey = "7059cb165caa3316bff682d263a01b1e";
   let apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
   axios.get(apiURL).then(displayForecast);
 }
@@ -117,6 +116,7 @@ function submit(event) {
   fahrenheitLink.classList.remove("active");
   searchForCity(city);
 }
+searchForCity("Tunapuna");
 
 function dispalyFahrenheitTemp(event) {
   event.preventDefault();
@@ -150,4 +150,4 @@ fahrenheitLink.addEventListener("click", dispalyFahrenheitTemp);
 let celsiusiLink = document.querySelector("#celsius-link");
 celsiusiLink.addEventListener("click", dispalyCelsiusTemp);
 
-searchForCity("Tunapuna");
+
