@@ -26,18 +26,22 @@
   }
   
   .city {
+    font-style:initial;
     font-weight: 700;
     font-size: 40px;
+    color: rgb(241, 243, 245);
   }
   .main-temp {
     font-weight: 700;
     font-size: 50px;
+    color: rgb(241, 243, 245);
   }
   
   .weather-temperature .units {
     position: relative;
     font-size: 20px;
     top: -20px;
+     rgb(241, 243, 245);
   }
   
   .weather-temperature .active {
@@ -84,7 +88,7 @@
   .weather-forecast-date {
     font-size: 25px;
     font-weight: 500;
-    color: rgb(33, 20, 158);
+    color:  rgb(241, 243, 245);
   }
   
   .weather-forecast-temp {
@@ -98,7 +102,7 @@
   .day-hour {
     font-weight: 500;
     font-size: 20px;
-    color: rgb(31, 34, 224);
+    color: rgb(116, 158, 200);
   }
   
   .pre-footer {
