@@ -7,7 +7,7 @@
     .edge {
     margin-top: 20px;
     margin-bottom: 20px;
-    border: solid 1px rgb(214, 250, 210);
+    border: solid 1px  rgb(241, 243, 245);
     background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/092/530/original/fortgoergescene.jpg?1691436916);
     border-radius: 15px;
     padding: 20px;
@@ -15,14 +15,14 @@
   
   .edge-in {
     margin-top: 20px;
-    border: solid 1px rgb(226, 251, 195);
+    border: solid 1px rgb(241, 243, 245);
     border-radius: 15px;
     padding: 15px;
   
   }
   
   .btn {
-    border: solid 1px rgb(215, 246, 199);
+    border: solid 1px rgb(241, 243, 245);
   }
   
   .city {
@@ -41,7 +41,7 @@
     position: relative;
     font-size: 20px;
     top: -20px;
-     rgb(241, 243, 245);
+     color: rgb(241, 243, 245);
   }
   
   .weather-temperature .active {
@@ -68,14 +68,14 @@
   .description {
     font-weight: 500;
     font-size: 20px;
-    color: rgb(58, 58, 58);
+    color: rgb(116, 158, 200);
     text-transform: capitalize;
   }
-  
+
   .other-descriptions {
     font-weight: 500;
     font-size: 20px;
-    color: rgb(58, 58, 58);
+    color: rgb(241, 243, 245);
     margin-top: 77px;
     position: relative;
   }
