@@ -41,7 +41,7 @@
   }
   
   .weather-temperature .active {
-    color: black;
+    color: rgb(51, 9, 216);
     cursor: default;
   }
   .weather-temperature .active:hover {
@@ -64,14 +64,14 @@
   .description {
     font-weight: 500;
     font-size: 20px;
-    color: rgb(73, 73, 73);
+    color: rgb(58, 58, 58);
     text-transform: capitalize;
   }
   
   .other-descriptions {
     font-weight: 500;
     font-size: 20px;
-    color: rgb(73, 73, 73);
+    color: rgb(58, 58, 58);
     margin-top: 77px;
     position: relative;
   }
@@ -84,7 +84,7 @@
   .weather-forecast-date {
     font-size: 25px;
     font-weight: 500;
-    color: black;
+    color: rgb(33, 20, 158);
   }
   
   .weather-forecast-temp {
@@ -93,12 +93,12 @@
   }
   
   .weather-forecast-temp-min {
-    color: rgb(141, 4, 104);
+    color: rgb(3, 48, 114);
   }
   .day-hour {
     font-weight: 500;
     font-size: 20px;
-    color: rgb(74, 2, 2);
+    color: rgb(31, 34, 224);
   }
   
   .pre-footer {
